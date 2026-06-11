@@ -113,7 +113,6 @@ updateBtn.addEventListener('click', () => {
   ls.setLs(bookedSeats)
   const updatedStorage = ls.getLs()
   fullHouseCheck(updatedStorage)
-  // console.log(bookedSeats)
 })
 
 clearBookingsBtn.addEventListener('click', (e) => {
@@ -146,7 +145,6 @@ randomBookingsBtn.addEventListener('click', () => {
   mappedSeats.forEach((item) => item.classList.remove('taken'))
 
   const randomNums = Array.from({ length: 10 }, (_, i) => getRandomInt(0, 19))
-  // console.log(randomNums)
 
   /**
    *
