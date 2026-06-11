@@ -127,6 +127,7 @@ clearBookingsBtn.addEventListener('click', (e) => {
   localStorage.removeItem('cinema')
 })
 
+// sliding scale
 function getRandomInt(min, max) {
   const minCeiled = Math.ceil(min)
   const maxFloored = Math.floor(max)
